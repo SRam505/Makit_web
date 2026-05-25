@@ -566,15 +566,18 @@ h1 {
   }
 
   .download-panel {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
   }
 
   .download-panel-top {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 14px;
-    margin-bottom: 14px;
+    margin-bottom: 2px;
   }
 
   .apk-icon {
@@ -585,17 +588,19 @@ h1 {
   }
 
   .apk-meta {
-    margin-bottom: 16px;
+    margin-bottom: 0;
+    text-align: left;
   }
 
   .btn-download {
     width: 100%;
-    margin: 0;
+    margin: 4px 0 0;
+    align-self: stretch;
     justify-content: center;
   }
 
   .download-panel .fineprint {
-    margin-top: 12px;
+    margin-top: 0;
   }
 
   .showcase {
