@@ -566,40 +566,36 @@ h1 {
   }
 
   .download-panel {
-    display: grid;
-    grid-template-columns: 72px 1fr;
-    gap: 14px 16px;
-    align-items: center;
+    display: block;
   }
 
   .download-panel-top {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: 72px 1fr;
-    gap: 14px 16px;
-    align-items: start;
-    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 14px;
   }
 
   .apk-icon {
-    margin-bottom: 0;
     width: 72px;
     height: 72px;
+    margin-bottom: 0;
+    flex: 0 0 auto;
   }
 
   .apk-meta {
-    margin-bottom: 0;
+    margin-bottom: 16px;
   }
 
   .btn-download {
-    grid-column: 1 / -1;
-    justify-self: center;
-    margin-top: 6px;
-    margin-right: 0;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
   }
 
   .download-panel .fineprint {
-    grid-column: 1 / -1;
+    margin-top: 12px;
   }
 
   .showcase {
