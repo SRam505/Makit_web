@@ -574,9 +574,10 @@ h1 {
 
   .download-panel-top {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: stretch;
     justify-content: flex-start;
-    gap: 14px;
+    gap: 12px;
     margin-bottom: 2px;
   }
 
@@ -597,6 +598,7 @@ h1 {
     margin: 4px 0 0;
     align-self: stretch;
     justify-content: center;
+    max-width: 100%;
   }
 
   .download-panel .fineprint {
