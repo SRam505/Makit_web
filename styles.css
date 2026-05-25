@@ -459,12 +459,14 @@ h1 {
   align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 }
 
 .btn-download {
   flex: 0 0 auto;
-  align-self: flex-start;
+  align-self: flex-end;
+  margin-top: 14px;
+  margin-right: 10px;
   white-space: nowrap;
 }
 
@@ -591,7 +593,9 @@ h1 {
 
   .btn-download {
     grid-column: 1 / -1;
-    justify-self: end;
+    justify-self: center;
+    margin-top: 6px;
+    margin-right: 0;
   }
 
   .download-panel .fineprint {
